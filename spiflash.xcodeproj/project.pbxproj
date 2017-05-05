@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BBFC9871A7F9122003DA621 /* bits.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BBFC97F1A7F9122003DA621 /* bits.c */; };
+		7BBFC9881A7F9122003DA621 /* probe.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BBFC9811A7F9122003DA621 /* probe.c */; };
+		7BBFC9891A7F9122003DA621 /* usb_serial.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BBFC9821A7F9122003DA621 /* usb_serial.c */; };
+		7BBFC98A1A7F9122003DA621 /* xmodem.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BBFC9851A7F9122003DA621 /* xmodem.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7BBFC9731A7F9100003DA621 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7BBFC9751A7F9100003DA621 /* spiflash */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = spiflash; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BBFC97F1A7F9122003DA621 /* bits.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bits.c; sourceTree = SOURCE_ROOT; };
+		7BBFC9801A7F9122003DA621 /* bits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bits.h; sourceTree = SOURCE_ROOT; };
+		7BBFC9811A7F9122003DA621 /* probe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = probe.c; sourceTree = SOURCE_ROOT; };
+		7BBFC9821A7F9122003DA621 /* usb_serial.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = usb_serial.c; sourceTree = SOURCE_ROOT; };
+		7BBFC9831A7F9122003DA621 /* usb_serial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usb_serial.h; sourceTree = SOURCE_ROOT; };
+		7BBFC9841A7F9122003DA621 /* usb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usb.h; sourceTree = SOURCE_ROOT; };
+		7BBFC9851A7F9122003DA621 /* xmodem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xmodem.c; sourceTree = SOURCE_ROOT; };
+		7BBFC9861A7F9122003DA621 /* xmodem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmodem.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BBFC9721A7F9100003DA621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BBFC96C1A7F9100003DA621 = {
+			isa = PBXGroup;
+			children = (
+				7BBFC9771A7F9100003DA621 /* spiflash */,
+				7BBFC9761A7F9100003DA621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BBFC9761A7F9100003DA621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BBFC9751A7F9100003DA621 /* spiflash */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BBFC9771A7F9100003DA621 /* spiflash */ = {
+			isa = PBXGroup;
+			children = (
+				7BBFC9811A7F9122003DA621 /* probe.c */,
+				7BBFC97F1A7F9122003DA621 /* bits.c */,
+				7BBFC9801A7F9122003DA621 /* bits.h */,
+				7BBFC9821A7F9122003DA621 /* usb_serial.c */,
+				7BBFC9831A7F9122003DA621 /* usb_serial.h */,
+				7BBFC9841A7F9122003DA621 /* usb.h */,
+				7BBFC9851A7F9122003DA621 /* xmodem.c */,
+				7BBFC9861A7F9122003DA621 /* xmodem.h */,
+			);
+			path = spiflash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BBFC9741A7F9100003DA621 /* spiflash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BBFC97C1A7F9100003DA621 /* Build configuration list for PBXNativeTarget "spiflash" */;
+			buildPhases = (
+				7BBFC9711A7F9100003DA621 /* Sources */,
+				7BBFC9721A7F9100003DA621 /* Frameworks */,
+				7BBFC9731A7F9100003DA621 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spiflash;
+			productName = spiflash;
+			productReference = 7BBFC9751A7F9100003DA621 /* spiflash */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BBFC96D1A7F9100003DA621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Put.as;
+				TargetAttributes = {
+					7BBFC9741A7F9100003DA621 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 7BBFC9701A7F9100003DA621 /* Build configuration list for PBXProject "spiflash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BBFC96C1A7F9100003DA621;
+			productRefGroup = 7BBFC9761A7F9100003DA621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BBFC9741A7F9100003DA621 /* spiflash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BBFC9711A7F9100003DA621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBFC9881A7F9122003DA621 /* probe.c in Sources */,
+				7BBFC9891A7F9122003DA621 /* usb_serial.c in Sources */,
+				7BBFC9871A7F9122003DA621 /* bits.c in Sources */,
+				7BBFC98A1A7F9122003DA621 /* xmodem.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7BBFC97A1A7F9100003DA621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7BBFC97B1A7F9100003DA621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7BBFC97D1A7F9100003DA621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BBFC97E1A7F9100003DA621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BBFC9701A7F9100003DA621 /* Build configuration list for PBXProject "spiflash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBFC97A1A7F9100003DA621 /* Debug */,
+				7BBFC97B1A7F9100003DA621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BBFC97C1A7F9100003DA621 /* Build configuration list for PBXNativeTarget "spiflash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BBFC97D1A7F9100003DA621 /* Debug */,
+				7BBFC97E1A7F9100003DA621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BBFC96D1A7F9100003DA621 /* Project object */;
+}
